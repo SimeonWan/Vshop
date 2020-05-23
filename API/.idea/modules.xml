@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/API.iml" filepath="$PROJECT_DIR$/.idea/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vshop-admin/Vshop-admin.iml" filepath="$PROJECT_DIR$/Vshop-admin/Vshop-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vshop-common/Vshop-common.iml" filepath="$PROJECT_DIR$/Vshop-common/Vshop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vshop-mbg/Vshop-mbg.iml" filepath="$PROJECT_DIR$/Vshop-mbg/Vshop-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vshop-portal/Vshop-portal.iml" filepath="$PROJECT_DIR$/Vshop-portal/Vshop-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vshop-search/Vshop-search.iml" filepath="$PROJECT_DIR$/Vshop-search/Vshop-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vshop-security/Vshop-security.iml" filepath="$PROJECT_DIR$/Vshop-security/Vshop-security.iml" />
+    </modules>
+  </component>
+</project>
