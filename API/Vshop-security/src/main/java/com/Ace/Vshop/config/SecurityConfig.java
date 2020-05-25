@@ -1,7 +1,7 @@
 package com.Ace.Vshop.config;
 
-import com.macro.mall.security.component.*;
-import com.macro.mall.security.util.JwtTokenUtil;
+import com.Ace.Vshop.component.*;
+import com.Ace.Vshop.util.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.context.annotation.Bean;

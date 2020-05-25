@@ -1,7 +1,7 @@
 package com.Ace.Vshop.component;
 
 import cn.hutool.json.JSONUtil;
-import com.macro.mall.common.api.CommonResult;
+import com.Ace.Vshop.common.api.CommonResult;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 

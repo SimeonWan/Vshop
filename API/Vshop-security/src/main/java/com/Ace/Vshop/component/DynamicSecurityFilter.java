@@ -1,6 +1,6 @@
 package com.Ace.Vshop.component;
 
-import com.macro.mall.security.config.IgnoreUrlsConfig;
+import com.Ace.Vshop.config.IgnoreUrlsConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.access.SecurityMetadataSource;
