@@ -1,0 +1,26 @@
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--外部定义properties文件引用    -->
+    <properties resource="generator.properties"/>
+    <context id="simple" targetRuntime="MyBatis3Simple">
+        <!--数据库连接        -->
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                        connectionURL="${jdbc.connectionURL}"
+                        userId="${jdbc.userId}"
+                        password="${jdbc.password}">
+            <!--解决mysql驱动升级到8.0后不生成指定数据库代码的问题-->
+            <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+
+        <!--生产文件存放位置        -->
+        <javaModelGenerator targetPackage="com.lpx.shop.model" targetProject="src/main/java"/>
+
+        <sqlMapGenerator targetPackage="com.lpx.shop.mapper" targetProject="src/main/resources"/>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.lpx.shop.mapper" targetProject="src/main/java"/>
+
+        <table tableName="FooTable"/>
+    </context>
+</generatorConfiguration>
