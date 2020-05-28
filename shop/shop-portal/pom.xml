@@ -13,12 +13,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.macro.mall</groupId>
-            <artifactId>mall-mbg</artifactId>
+            <groupId>com.lpx.shop</groupId>
+            <artifactId>shop-mbg</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.macro.mall</groupId>
-            <artifactId>mall-security</artifactId>
+            <groupId>com.lpx.shop</groupId>
+            <artifactId>shop-security</artifactId>
         </dependency>
         <!--mongodb依赖配置-->
         <dependency>
